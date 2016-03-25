@@ -13,3 +13,8 @@ if ($_GET['section'] != "") {
 } else {
 	$loader->load_module('homepage');
 }
+
+
+// footer
+$loader->load_smarty($null,'footer.tpl');
+?>

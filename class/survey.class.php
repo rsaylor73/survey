@@ -37,6 +37,10 @@ class survey {
 
 	public function homepage() {
 		// show the home page of the survey and evaulate the URL parms to start the survey
-		print "Welcome!";
+		$template = "survey.tpl";
+
+
+		$this->load_smarty($data,$template);
+
 	}
 }
