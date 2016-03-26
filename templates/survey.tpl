@@ -13,6 +13,8 @@
                 Your vacation is very important to us. To help us ensure that you received the high quality service that we expect, please tell us how we did by completing the following survey.<br>
 
                 <table class="table">
+                
+                <!-- Q1 -->
                 <tr>
                     <td><b>How did you hear about us?</b></td><td><select name="q1">
                         <option>Repeat guest</option>
@@ -25,10 +27,16 @@
                         <option>Travel Agent</option>
                     </select></td>
                 </tr>
+
+                <!-- Q2 -->
                 <tr>
-                    <td><b>Why did you choose us?</b></td>
-                    <td><textarea name="q2" cols={if $device eq "0"}75{/if}{if $device eq "1"}40{/if} rows=5></textarea></td>
+                    <td colspan="2"><b>Why did you choose us?</b></td>
                 </tr>
+                <tr>
+                    <td colspan="2"><textarea name="q2" cols={if $device eq "0"}75{/if}{if $device eq "1"}40{/if} rows=5></textarea></td>
+                </tr>
+
+                <!-- Q3 -->
                 <tr>
                     <td><b>How were your reservations made?</b></td>
                     <td><select name="q3" id="q3">
@@ -39,7 +47,9 @@
                         <option>Travel Agent</option>
                     </select></td>
                 </tr>
-                <tr><td colspan="2"><b>Please rate your reservation process</b></td>
+
+                <!-- Q4 -->
+                <tr><td colspan="2"><b>Please rate your reservation process:</b></td>
                 <tr><td colspan="2"><select name="q4">
                     <option value="5" selected>5 (Very Satisfied)</option>
                     <option>4</option>
@@ -47,6 +57,20 @@
                     <option>2</option>
                     <option value="1">1 (Unsatisfied)</option>
                     </select></td>
+                </tr>
+
+                <!-- future
+                <tr>
+                    <td colspan="2">Did you receive a travel package prior to traveling? <select name="q4b"><option>Yes</option><option>No</option></select></td>
+                </tr>
+                -->
+
+                <!-- Q5 -->
+                <tr>
+                    <td colspan="2"><b>How can we improve the reservation process?</b></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><textarea name="q5" cols={if $device eq "0"}75{/if}{if $device eq "1"}40{/if} rows=5></textarea></td>
                 </tr>
 
 
