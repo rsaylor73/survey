@@ -1,4 +1,10 @@
 <!-- Page Content -->
+
+    <!--
+    device 0 is desktop
+    device 1 is mobile
+    -->
+
     <div class="container">
 
         <div class="row">
@@ -21,9 +27,7 @@
                 </tr>
                 <tr>
                     <td><b>Why did you choose us?</b></td>
-                    <td><textarea name="q2" cols=
-                        {if $device eq "0"}40{/if}
-                        {if $device eq "1"}75{/if} rows=5></textarea></td>
+                    <td><textarea name="q2" cols={if $device eq "0"}75{/if}{if $device eq "1"}40{/if} rows=5></textarea></td>
                 </tr>
 
 
