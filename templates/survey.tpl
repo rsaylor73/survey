@@ -39,13 +39,13 @@
                         <option>Travel Agent</option>
                     </select></td>
                 </tr>
-                <tr><td colspan="2"><b>Please rate your reservation process on a scale of 5 (very satisfied) to 1 (unsatisfied)</b></td>
+                <tr><td colspan="2"><b>Please rate your reservation process</b></td>
                 <tr><td colspan="2"><select name="q4">
-                    <option selected>5</option>
+                    <option value="5" selected>5 (Very Satisfied)</option>
                     <option>4</option>
-                    <option>3</option>
+                    <option value="3">3 (Neutral)</option>
                     <option>2</option>
-                    <option>1</option>
+                    <option value="1">1 (Unsatisfied)</option>
                     </select></td>
                 </tr>
 
