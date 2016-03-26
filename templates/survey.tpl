@@ -2,13 +2,13 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-lg-12 text-center">
-                <h1>A Bootstrap Starter Template</h1>
-                <p class="lead">Complete with pre-defined file paths that you won't have to change!</p>
-                <ul class="list-unstyled">
-                    <li>Bootstrap v3.3.6</li>
-                    <li>jQuery v1.11.1</li>
-                </ul>
+            <div class="col-lg-12 text-left">
+                <h1>Oceans For Youth :: Survey</h1>
+                Your vacation is very important to us. To help us ensure that you received the high quality service that we expect, please tell us how we did by completing the following survey.<br>
+                
+
+
+
             </div>
         </div>
         <!-- /.row -->
