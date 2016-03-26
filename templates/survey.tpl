@@ -18,7 +18,7 @@
                     <td><b>How did you hear about us?</b></td>
                 </tr>
                 <tr>
-                    <td><select name="q1">
+                    <td><select name="q1" required>
                         <option>Repeat guest</option>
                         <option>Friend</option>
                         <option>Dive Show</option>
@@ -43,7 +43,7 @@
                     <td><b>How were your reservations made?</b></td>
                 </tr>
                 <tr>
-                    <td><select name="q3" id="q3">
+                    <td><select name="q3" id="q3" required>
                         <option value="">--Please Select--</option>
                         <option selected>Aggressor</option>
                         <option>Tour Operator</option>
@@ -54,8 +54,9 @@
 
                 <!-- Q4 -->
                 <tr><td><b>Please rate your reservation process:</b></td>
-                <tr><td><select name="q4">
-                    <option value="5" selected>5 (Very Satisfied)</option>
+                <tr><td><select name="q4" required>
+                    <option value="">--Select--</option>
+                    <option value="5">5 (Very Satisfied)</option>
                     <option>4</option>
                     <option value="3">3 (Neutral)</option>
                     <option>2</option>
@@ -97,8 +98,9 @@
                     <td><b>Accommodations?</b></td>
                 </tr>
                 <tr>
-                    <td><select name="q7a">
-                        <option value="5" selected>5 (Excellent)</option>
+                    <td><select name="q7a" required>
+                        <option value="">--Select--</option>
+                        <option value="5">5 (Excellent)</option>
                         <option>4</option>
                         <option value="3">3 (Fair)</option>
                         <option>2</option>
@@ -111,8 +113,9 @@
                     <td><b>Service?</b></td>
                 </tr>
                 <tr>
-                    <td><select name="q7b">
-                        <option value="5" selected>5 (Excellent)</option>
+                    <td><select name="q7b" required>
+                        <option value="">--Select--</option>
+                        <option value="5">5 (Excellent)</option>
                         <option>4</option>
                         <option value="3">3 (Fair)</option>
                         <option>2</option>
@@ -125,8 +128,9 @@
                     <td><b>Food?</b></td>
                 </tr>
                 <tr>
-                    <td><select name="q7a">
-                        <option value="5" selected>5 (Excellent)</option>
+                    <td><select name="q7a" required>
+                        <option value="">--Select--</option>
+                        <option value="5">5 (Excellent)</option>
                         <option>4</option>
                         <option value="3">3 (Fair)</option>
                         <option>2</option>
@@ -140,7 +144,8 @@
                 </tr>
                 <tr>
                     <td><select name="q7a">
-                        <option value="5" selected>5 (Excellent)</option>
+                        <option value="">--Select--</option>
+                        <option value="5">5 (Excellent)</option>
                         <option>4</option>
                         <option value="3">3 (Fair)</option>
                         <option>2</option>
@@ -148,7 +153,32 @@
                         <option value="">N/A</option>
                         </select>
                     </td>
-                </tr>    
+                </tr>   
+
+                <!-- Q8 -->
+                <tr>
+                    <td><b>Please tell us about your experience.</b></td>
+                </tr>
+                <tr>
+                    <td><textarea name="q8" cols={if $device eq "0"}75{/if}{if $device eq "1"}40{/if} rows=5></textarea></td>
+                </tr>
+
+                <!-- Q9 -->
+                <tr>
+                    <td><b>How likely are you to continue to travel with us?</b></td>
+                </tr>
+                <tr>
+                    <td>
+                    <select name="q9" required>
+                    <option value="">--Select--</option>
+                    <option value="5">Very Likely</option>
+                    <option value="4">Likely</option>
+                    <option value="3">Somewhat Likely</option>
+                    <option value="2">Unlikely</option>
+                    <option value="1">Very Unlikely</option>
+                    </select>
+                    </td>
+                </tr>
 
 
 
