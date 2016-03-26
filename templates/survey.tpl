@@ -21,7 +21,7 @@
                 </tr>
                 <tr>
                     <td><b>Why did you choose us?</b></td>
-                    <td><textarea name="q2" cols=75 rows=5></textarea></td>
+                    <td><textarea name="q2" cols=50 rows=5></textarea></td>
                 </tr>
 
 
