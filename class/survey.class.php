@@ -35,10 +35,17 @@ class survey {
 		die;
 	}
 
+    public function device_type() {
+        //print "TEST: $_SERVER[HTTP_USER_AGENT]<br>";
+        //die;
+        return preg_match("/(android|avantgo|blackberry|bolt|boost|cricket|docomo|fone|hiptop|mini|iphone|palm|phone|pie|tablet|up\.browser|up\.link|webos|wos)/i", $_SERVER["HTTP_USER_AGENT"]);
+    }
+
 	public function homepage() {
+		$device = $this->device_type();
 		// show the home page of the survey and evaulate the URL parms to start the survey
 		$template = "survey.tpl";
-
+		$data['device'] = $device;
 
 		$this->load_smarty($data,$template);
 
