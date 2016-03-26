@@ -243,141 +243,159 @@
                     <input type="radio" name="q12a_10" value="1">
                     <input type="radio" name="q12a_10" value="0">
                 </tr></tr>
-                <tr><td>Buceadores Magazine</td>
-                    <td><input type="radio" name="q12a_8" value="5"></td>
-               <td><input type="radio" name="q12a_8" value="4"></td>
-               <td><input type="radio" name="q12a_8" value="3"></td>
-               <td><input type="radio" name="q12a_8" value="2"></td>
-               <td><input type="radio" name="q12a_8" value="1"></td>
-               <td><input type="radio" name="q12a_8" value="0"></td>
+                <tr><td>Buceadores Magazine</td></tr>
+                <tr><td>
+                    <input type="radio" name="q12a_8" value="5">
+                    <input type="radio" name="q12a_8" value="4">
+                    <input type="radio" name="q12a_8" value="3">
+                    <input type="radio" name="q12a_8" value="2">
+                    <input type="radio" name="q12a_8" value="1">
+                    <input type="radio" name="q12a_8" value="0">
                 </td></tr>
-                <tr><td>DIVE UK</td>
-                    <td><input type="radio" name="q12a_19" value="5"></td>
-               <td><input type="radio" name="q12a_19" value="4"></td>
-               <td><input type="radio" name="q12a_19" value="3"></td>
-               <td><input type="radio" name="q12a_19" value="2"></td>
-               <td><input type="radio" name="q12a_19" value="1"></td>
-               <td><input type="radio" name="q12a_19" value="0"></td>
+                <tr><td>DIVE UK</td></tr>
+                <tr><td>
+                    <input type="radio" name="q12a_19" value="5">
+                    <input type="radio" name="q12a_19" value="4">
+                    <input type="radio" name="q12a_19" value="3">
+                    <input type="radio" name="q12a_19" value="2">
+                    <input type="radio" name="q12a_19" value="1">
+                    <input type="radio" name="q12a_19" value="0">
                 </td></tr>
-                <tr><td>DIVER UK</td>
-                    <td><input type="radio" name="q12a_4" value="5"></td>
-               <td><input type="radio" name="q12a_4" value="4"></td>
-               <td><input type="radio" name="q12a_4" value="3"></td>
-               <td><input type="radio" name="q12a_4" value="2"></td>
-               <td><input type="radio" name="q12a_4" value="1"></td>
-               <td><input type="radio" name="q12a_4" value="0"></td>
+                <tr><td>DIVER UK</td></tr>
+                <tr><td>
+                    <input type="radio" name="q12a_4" value="5">
+                    <input type="radio" name="q12a_4" value="4">
+                    <input type="radio" name="q12a_4" value="3">
+                    <input type="radio" name="q12a_4" value="2">
+                    <input type="radio" name="q12a_4" value="1">
+                    <input type="radio" name="q12a_4" value="0">
                 </td></tr>
-                <tr><td>Dive Center Business</td>
-                    <td><input type="radio" name="q12a_18" value="5"></td>
-               <td><input type="radio" name="q12a_18" value="4"></td>
-               <td><input type="radio" name="q12a_18" value="3"></td>
-               <td><input type="radio" name="q12a_18" value="2"></td>
-               <td><input type="radio" name="q12a_18" value="1"></td>
-               <td><input type="radio" name="q12a_18" value="0"></td>
+                <tr><td>Dive Center Business</td></tr>
+                <tr><td>
+                    <input type="radio" name="q12a_18" value="5">
+                    <input type="radio" name="q12a_18" value="4">
+                    <input type="radio" name="q12a_18" value="3">
+                    <input type="radio" name="q12a_18" value="2">
+                    <input type="radio" name="q12a_18" value="1">
+                    <input type="radio" name="q12a_18" value="0">
                 </td></tr>
-                <tr><td>Dive Training Magazine</td>
-                    <td><input type="radio" name="q12a_1" value="5"></td>
-               <td><input type="radio" name="q12a_1" value="4"></td>
-               <td><input type="radio" name="q12a_1" value="3"></td>
-               <td><input type="radio" name="q12a_1" value="2"></td>
-               <td><input type="radio" name="q12a_1" value="1"></td>
-               <td><input type="radio" name="q12a_1" value="0"></td>
+                <tr><td>Dive Training Magazine</td></tr>
+                <tr><td>
+                    <input type="radio" name="q12a_1" value="5">
+                    <input type="radio" name="q12a_1" value="4">
+                    <input type="radio" name="q12a_1" value="3">
+                    <input type="radio" name="q12a_1" value="2">
+                    <input type="radio" name="q12a_1" value="1">
+                    <input type="radio" name="q12a_1" value="0">
                 </td></tr>
-                <tr><td>Diver Canada</td>
-                    <td><input type="radio" name="q12a_11" value="5"></td>
-               <td><input type="radio" name="q12a_11" value="4"></td>
-               <td><input type="radio" name="q12a_11" value="3"></td>
-               <td><input type="radio" name="q12a_11" value="2"></td>
-               <td><input type="radio" name="q12a_11" value="1"></td>
-               <td><input type="radio" name="q12a_11" value="0"></td>
+                <tr><td>Diver Canada</td></tr>
+                <tr><td>
+                    <input type="radio" name="q12a_11" value="5">
+                    <input type="radio" name="q12a_11" value="4">
+                    <input type="radio" name="q12a_11" value="3">
+                    <input type="radio" name="q12a_11" value="2">
+                    <input type="radio" name="q12a_11" value="1">
+                    <input type="radio" name="q12a_11" value="0">
                 </td></tr>
-                <tr><td>EZ Dive Magazine</td>
-                    <td><input type="radio" name="q12a_6" value="5"></td>
-               <td><input type="radio" name="q12a_6" value="4"></td>
-               <td><input type="radio" name="q12a_6" value="3"></td>
-               <td><input type="radio" name="q12a_6" value="2"></td>
-               <td><input type="radio" name="q12a_6" value="1"></td>
-               <td><input type="radio" name="q12a_6" value="0"></td>
+                <tr><td>EZ Dive Magazine</td></tr>
+                <tr><td>
+                    <input type="radio" name="q12a_6" value="5">
+                    <input type="radio" name="q12a_6" value="4">
+                    <input type="radio" name="q12a_6" value="3">
+                    <input type="radio" name="q12a_6" value="2">
+                    <input type="radio" name="q12a_6" value="1">
+                    <input type="radio" name="q12a_6" value="0">
                 </td></tr>
-                <tr><td>Plongee</td>
-                    <td><input type="radio" name="q12a_12" value="5"></td>
-               <td><input type="radio" name="q12a_12" value="4"></td>
-               <td><input type="radio" name="q12a_12" value="3"></td>
-               <td><input type="radio" name="q12a_12" value="2"></td>
-               <td><input type="radio" name="q12a_12" value="1"></td>
-               <td><input type="radio" name="q12a_12" value="0"></td>
+                <tr><td>Plongee</td></tr>
+                <tr><td>
+                    <input type="radio" name="q12a_12" value="5">
+                    <input type="radio" name="q12a_12" value="4">
+                    <input type="radio" name="q12a_12" value="3">
+                    <input type="radio" name="q12a_12" value="2">
+                    <input type="radio" name="q12a_12" value="1">
+                    <input type="radio" name="q12a_12" value="0">
                 </td></tr>
-                <tr><td>Scuba Diver (Australasia / Ocean Planet)</td>
-                    <td><input type="radio" name="q12a_17" value="5"></td>
-               <td><input type="radio" name="q12a_17" value="4"></td>
-               <td><input type="radio" name="q12a_17" value="3"></td>
-               <td><input type="radio" name="q12a_17" value="2"></td>
-               <td><input type="radio" name="q12a_17" value="1"></td>
-               <td><input type="radio" name="q12a_17" value="0"></td>
+                <tr><td>Scuba Diver (Australasia / Ocean Planet)</td></tr>
+                <tr><td>
+                    <input type="radio" name="q12a_17" value="5">
+                    <input type="radio" name="q12a_17" value="4">
+                    <input type="radio" name="q12a_17" value="3">
+                    <input type="radio" name="q12a_17" value="2">
+                    <input type="radio" name="q12a_17" value="1">
+                    <input type="radio" name="q12a_17" value="0">
                 </td></tr>
-                <tr><td>Scuba Diver AustralAsia</td>
-                    <td><input type="radio" name="q12a_7" value="5"></td>
-               <td><input type="radio" name="q12a_7" value="4"></td>
-               <td><input type="radio" name="q12a_7" value="3"></td>
-               <td><input type="radio" name="q12a_7" value="2"></td>
-               <td><input type="radio" name="q12a_7" value="1"></td>
-               <td><input type="radio" name="q12a_7" value="0"></td>
+                <tr><td>Scuba Diver AustralAsia</td></tr>
+                <tr><td>
+                    <input type="radio" name="q12a_7" value="5">
+                    <input type="radio" name="q12a_7" value="4">
+                    <input type="radio" name="q12a_7" value="3">
+                    <input type="radio" name="q12a_7" value="2">
+                    <input type="radio" name="q12a_7" value="1">
+                    <input type="radio" name="q12a_7" value="0">
                 </td></tr>
-                <tr><td>Scuba Diving Magazine USA</td>
-                    <td><input type="radio" name="q12a_2" value="5"></td>
-               <td><input type="radio" name="q12a_2" value="4"></td>
-               <td><input type="radio" name="q12a_2" value="3"></td>
-               <td><input type="radio" name="q12a_2" value="2"></td>
-               <td><input type="radio" name="q12a_2" value="1"></td>
-               <td><input type="radio" name="q12a_2" value="0"></td>
+                <tr><td>Scuba Diving Magazine USA</td></tr>
+                <tr><td>
+                    <input type="radio" name="q12a_2" value="5">
+                    <input type="radio" name="q12a_2" value="4">
+                    <input type="radio" name="q12a_2" value="3">
+                    <input type="radio" name="q12a_2" value="2">
+                    <input type="radio" name="q12a_2" value="1">
+                    <input type="radio" name="q12a_2" value="0">
                 </td></tr>
-                <tr><td>Sport Diver Australia</td>
-                    <td><input type="radio" name="q12a_13" value="5"></td>
-               <td><input type="radio" name="q12a_13" value="4"></td>
-               <td><input type="radio" name="q12a_13" value="3"></td>
-               <td><input type="radio" name="q12a_13" value="2"></td>
-               <td><input type="radio" name="q12a_13" value="1"></td>
-               <td><input type="radio" name="q12a_13" value="0"></td>
+                <tr><td>Sport Diver Australia</td></tr>
+                <tr><td>
+                    <input type="radio" name="q12a_13" value="5">
+                    <input type="radio" name="q12a_13" value="4">
+                    <input type="radio" name="q12a_13" value="3">
+                    <input type="radio" name="q12a_13" value="2">
+                    <input type="radio" name="q12a_13" value="1">
+                    <input type="radio" name="q12a_13" value="0">
                 </td></tr>
-                <tr><td>Sport Diver Magazine UK</td>
-                    <td><input type="radio" name="q12a_15" value="5"></td>
-               <td><input type="radio" name="q12a_15" value="4"></td>
-               <td><input type="radio" name="q12a_15" value="3"></td>
-               <td><input type="radio" name="q12a_15" value="2"></td>
-               <td><input type="radio" name="q12a_15" value="1"></td>
-               <td><input type="radio" name="q12a_15" value="0"></td>
+                <tr><td>Sport Diver Magazine UK</td></tr>
+                <tr><td>
+                    <input type="radio" name="q12a_15" value="5">
+                    <input type="radio" name="q12a_15" value="4">
+                    <input type="radio" name="q12a_15" value="3">
+                    <input type="radio" name="q12a_15" value="2">
+                    <input type="radio" name="q12a_15" value="1">
+                    <input type="radio" name="q12a_15" value="0">
                 </td></tr>
-                <tr><td>Sport Diver Magazine USA</td>
-                    <td><input type="radio" name="q12a_3" value="5"></td>
-               <td><input type="radio" name="q12a_3" value="4"></td>
-               <td><input type="radio" name="q12a_3" value="3"></td>
-               <td><input type="radio" name="q12a_3" value="2"></td>
-               <td><input type="radio" name="q12a_3" value="1"></td>
-               <td><input type="radio" name="q12a_3" value="0"></td>
+                <tr><td>Sport Diver Magazine USA</td></tr>
+                <tr><td>
+                    <input type="radio" name="q12a_3" value="5">
+                    <input type="radio" name="q12a_3" value="4">
+                    <input type="radio" name="q12a_3" value="3">
+                    <input type="radio" name="q12a_3" value="2">
+                    <input type="radio" name="q12a_3" value="1">
+                    <input type="radio" name="q12a_3" value="0">
                 </td></tr>
-                <tr><td>Tauchen Magazine</td>
-                    <td><input type="radio" name="q12a_9" value="5"></td>
-               <td><input type="radio" name="q12a_9" value="4"></td>
-               <td><input type="radio" name="q12a_9" value="3"></td>
-               <td><input type="radio" name="q12a_9" value="2"></td>
-               <td><input type="radio" name="q12a_9" value="1"></td>
-               <td><input type="radio" name="q12a_9" value="0"></td>
+                <tr><td>Tauchen Magazine</td></tr>
+                <tr><td>
+                    <input type="radio" name="q12a_9" value="5">
+                    <input type="radio" name="q12a_9" value="4">
+                    <input type="radio" name="q12a_9" value="3">
+                    <input type="radio" name="q12a_9" value="2">
+                    <input type="radio" name="q12a_9" value="1">
+                    <input type="radio" name="q12a_9" value="0">
                 </td></tr>
-                <tr><td>Ultimate Depth Russia</td>
-                    <td><input type="radio" name="q12a_14" value="5"></td>
-               <td><input type="radio" name="q12a_14" value="4"></td>
-               <td><input type="radio" name="q12a_14" value="3"></td>
-               <td><input type="radio" name="q12a_14" value="2"></td>
-               <td><input type="radio" name="q12a_14" value="1"></td>
-               <td><input type="radio" name="q12a_14" value="0"></td>
+                <tr><td>Ultimate Depth Russia</td></tr>
+                <tr><td>
+                    <input type="radio" name="q12a_14" value="5">
+                    <input type="radio" name="q12a_14" value="4">
+                    <input type="radio" name="q12a_14" value="3">
+                    <input type="radio" name="q12a_14" value="2">
+                    <input type="radio" name="q12a_14" value="1">
+                    <input type="radio" name="q12a_14" value="0">
                 </td></tr>
-                <tr><td>unterwasser</td>
-                    <td><input type="radio" name="q12a_5" value="5"></td>
-               <td><input type="radio" name="q12a_5" value="4"></td>
-               <td><input type="radio" name="q12a_5" value="3"></td>
-               <td><input type="radio" name="q12a_5" value="2"></td>
-               <td><input type="radio" name="q12a_5" value="1"></td>
-               <td><input type="radio" name="q12a_5" value="0"></td>
+                <tr><td>unterwasser</td></tr>
+                <tr><td>
+                    <input type="radio" name="q12a_5" value="5">
+                    <input type="radio" name="q12a_5" value="4">
+                    <input type="radio" name="q12a_5" value="3">
+                    <input type="radio" name="q12a_5" value="2">
+                    <input type="radio" name="q12a_5" value="1">
+                    <input type="radio" name="q12a_5" value="0">
+                </td></tr>
 
 
 
