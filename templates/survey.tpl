@@ -5,7 +5,25 @@
             <div class="col-lg-12 text-left">
                 <h1>Oceans For Youth :: Survey</h1>
                 Your vacation is very important to us. To help us ensure that you received the high quality service that we expect, please tell us how we did by completing the following survey.<br>
-                
+
+                <table class="table">
+                <tr>
+                    <td><b>How did you hear about us?</b></td><td><select name="q1">
+                        <option>Repeat guest</option>
+                        <option>Friend</option>
+                        <option>Dive Show</option>
+                        <option>Internet</option>
+                        <option>Magazine</option>
+                        <option>Dive Store</option>
+                        <option>Tour Operator</option>
+                        <option>Travel Agent</option>
+                    </select></td>
+                </tr>
+
+
+
+
+                </table>
 
 
 
