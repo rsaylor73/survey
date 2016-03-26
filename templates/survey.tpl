@@ -81,6 +81,75 @@
                     <td><textarea name="q5" cols={if $device eq "0"}75{/if}{if $device eq "1"}40{/if} rows=5></textarea></td>
                 </tr>
 
+                <!-- Q6 -->
+                <tr>
+                    <td><b>If your travel arrangements were made by our in house travel department, LiveAboard Vacations, please tell us about your experience.</b></td>
+                </tr>
+                <tr>
+                    <td><textarea name="q6" cols={if $device eq "0"}75{/if}{if $device eq "1"}40{/if} rows=5></textarea></td>
+                </tr>
+
+
+                <!-- Q7 -->
+                <tr>
+                    <td><b>Please rate your onboard experience:</b></td>
+                </tr>
+                <tr>
+                    <td><b>Accommodations?</b></td>
+                </tr>
+                <tr>
+                    <td><select name="q7a">
+                        <option value="5" selected>5 (Excellent)</option>
+                        <option>4</option>
+                        <option value="3">3 (Fair)</option>
+                        <option>2</option>
+                        <option value="1">1 (Poor)</option>
+                        </select>
+                    </td>
+                </tr>
+
+               <tr>
+                    <td><b>Service?</b></td>
+                </tr>
+                <tr>
+                    <td><select name="q7b">
+                        <option value="5" selected>5 (Excellent)</option>
+                        <option>4</option>
+                        <option value="3">3 (Fair)</option>
+                        <option>2</option>
+                        <option value="1">1 (Poor)</option>
+                        </select>
+                    </td>
+                </tr>
+
+               <tr>
+                    <td><b>Food?</b></td>
+                </tr>
+                <tr>
+                    <td><select name="q7a">
+                        <option value="5" selected>5 (Excellent)</option>
+                        <option>4</option>
+                        <option value="3">3 (Fair)</option>
+                        <option>2</option>
+                        <option value="1">1 (Poor)</option>
+                        </select>
+                    </td>
+                </tr>
+
+               <tr>
+                    <td><b>Diving?</b></td>
+                </tr>
+                <tr>
+                    <td><select name="q7a">
+                        <option value="5" selected>5 (Excellent)</option>
+                        <option>4</option>
+                        <option value="3">3 (Fair)</option>
+                        <option>2</option>
+                        <option value="1">1 (Poor)</option>
+                        <option value="">N/A</option>
+                        </select>
+                    </td>
+                </tr>    
 
 
 
