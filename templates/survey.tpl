@@ -16,7 +16,10 @@
                 
                 <!-- Q1 -->
                 <tr>
-                    <td><b>How did you hear about us?</b></td><td><select name="q1">
+                    <td><b>How did you hear about us?</b></td>
+                </tr>
+                <tr>
+                    <td><select name="q1">
                         <option>Repeat guest</option>
                         <option>Friend</option>
                         <option>Dive Show</option>
@@ -30,15 +33,17 @@
 
                 <!-- Q2 -->
                 <tr>
-                    <td colspan="2"><b>Why did you choose us?</b></td>
+                    <td><b>Why did you choose us?</b></td>
                 </tr>
                 <tr>
-                    <td colspan="2"><textarea name="q2" cols={if $device eq "0"}75{/if}{if $device eq "1"}40{/if} rows=5></textarea></td>
+                    <td><textarea name="q2" cols={if $device eq "0"}75{/if}{if $device eq "1"}40{/if} rows=5></textarea></td>
                 </tr>
 
                 <!-- Q3 -->
                 <tr>
                     <td><b>How were your reservations made?</b></td>
+                </tr>
+                <tr>
                     <td><select name="q3" id="q3">
                         <option value="">--Please Select--</option>
                         <option selected>Aggressor</option>
@@ -49,8 +54,8 @@
                 </tr>
 
                 <!-- Q4 -->
-                <tr><td colspan="2"><b>Please rate your reservation process:</b></td>
-                <tr><td colspan="2"><select name="q4">
+                <tr><td><b>Please rate your reservation process:</b></td>
+                <tr><td><select name="q4">
                     <option value="5" selected>5 (Very Satisfied)</option>
                     <option>4</option>
                     <option value="3">3 (Neutral)</option>
@@ -61,16 +66,19 @@
 
                 <!-- future
                 <tr>
-                    <td colspan="2">Did you receive a travel package prior to traveling? <select name="q4b"><option>Yes</option><option>No</option></select></td>
+                    <td>Did you receive a travel package prior to traveling?</td>
+                </tr>
+                <tr>
+                    <td><select name="q4b"><option>Yes</option><option>No</option></select></td>
                 </tr>
                 -->
 
                 <!-- Q5 -->
                 <tr>
-                    <td colspan="2"><b>How can we improve the reservation process?</b></td>
+                    <td><b>How can we improve the reservation process?</b></td>
                 </tr>
                 <tr>
-                    <td colspan="2"><textarea name="q5" cols={if $device eq "0"}75{/if}{if $device eq "1"}40{/if} rows=5></textarea></td>
+                    <td><textarea name="q5" cols={if $device eq "0"}75{/if}{if $device eq "1"}40{/if} rows=5></textarea></td>
                 </tr>
 
 
