@@ -29,6 +29,25 @@
                     <td><b>Why did you choose us?</b></td>
                     <td><textarea name="q2" cols={if $device eq "0"}75{/if}{if $device eq "1"}40{/if} rows=5></textarea></td>
                 </tr>
+                <tr>
+                    <td><b>How were your reservations made?</b></td>
+                    <td><select name="q3" id="q3">
+                        <option value="">--Please Select--</option>
+                        <option selected>Aggressor</option>
+                        <option>Tour Operator</option>
+                        <option>Dive Store</option>
+                        <option>Travel Agent</option>
+                    </select></td>
+                </tr>
+                <tr><td colspan="2"><b>Please rate your reservation process on a scale of 5 (very satisfied) to 1 (unsatisfied)</b></td>
+                <tr><td colspan="2"><select name="q4">
+                    <option selected>5</option>
+                    <option>4</option>
+                    <option>3</option>
+                    <option>2</option>
+                    <option>1</option>
+                    </select></td>
+                </tr>
 
 
 
