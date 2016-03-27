@@ -62,7 +62,7 @@ class survey {
 		$sql = "
 		SELECT
 			`s`.`inventoryID`,
-			IF(`r`.`inventoryID` = '1800','COMPLETE','INCOMPLETE') AS 'status',
+			IF(`r`.`inventoryID` = '$_GET[code]','COMPLETE','INCOMPLETE') AS 'status',
 			`b`.`name`
 
 		FROM
