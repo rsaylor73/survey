@@ -112,7 +112,7 @@ class survey {
          	'$_POST[q15]','$_POST[q10a]','$_POST[q10b]','$_POST[q6]','$_POST[q1]','$_POST[q4b]'
          	)
          	";
-         	print "SQL 1:<br>$sql<br>";
+         	//print "SQL 1:<br>$sql<br>";
          	$result = $this->new_mysql($sql);
 
             for ($r=0; $r < 30; $r++) {
@@ -145,7 +145,7 @@ class survey {
             '$site[9]','$site[10]','$site[11]','$site[12]','$site[13]','$site[14]','$site[15]','$site[16]','$_POST[q13b]'
             )
             ";
-            print "SQL 2:<br>$sql<br>";
+            //print "SQL 2:<br>$sql<br>";
             $result = $this->new_mysql($sql);
 
             $submitted = date("Ymd");
