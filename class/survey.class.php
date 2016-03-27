@@ -44,10 +44,43 @@ class survey {
 	public function homepage() {
 		$device = $this->device_type();
 		// show the home page of the survey and evaulate the URL parms to start the survey
-		$template = "survey.tpl";
 		$data['device'] = $device;
 
-		$this->load_smarty($data,$template);
-
+		$get_data = $this->lookup_survey_code();
+		if ($get_data['status'] == "INCOMPLETE") {
+			$template = "survey.tpl";
+			$data['boat_name'] = $get_data['name'];
+			$this->load_smarty($data,$template);
+		} else {
+			$template = "already_complete.tpl";
+			$this->load_smarty($null,$template);
+		}
 	}
+
+	public function lookup_survey_code() {
+		$sql = "
+		SELECT
+			`s`.`inventoryID`,
+			IF(`r`.`inventoryID` = '1800','COMPLETE','INCOMPLETE') AS 'status',
+			`b`.`name`
+
+		FROM
+			`WWM_survey_codes` s, `boats`.`b`
+
+		LEFT JOIN `WWM_survey_results` r ON `s`.`inventoryID` = `r`.`inventoryID`
+
+		WHERE
+			`s`.`inventoryID` = '$_GET[code]'
+			AND `s`.`boatID` = `b`.`boatID`
+		";
+		$result = $this->new_mysql($sql);
+		while ($row = $result->fetch_assoc()) {
+			$name = $row['name'];
+			$status = $row['status'];
+		}
+		$data['name'] = $name;
+		$data['status'] = $status;
+		return $data;
+	}
+
 }
