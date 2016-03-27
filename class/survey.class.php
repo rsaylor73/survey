@@ -87,11 +87,8 @@ class survey {
 	public function saveresults() {
 		$_GET['code'] = $_POST['code'];
 		$get_data = $this->lookup_survey_code();
-		print "<pre>";
-		print_r($get_data);
-		print "</pre>";
 
-		if ($_POST['status'] == "INCOMPLETE") {
+		if ($get_data['status'] == "INCOMPLETE") {
 			$sql = "SELECT `boatID`,`start_date`,`end_date` FROM `WWM_survey_codes` WHERE `inventoryID` = '$_POST[code]'";
 			$result = $this->new_mysql($sql);
 			while ($row = $result->fetch_assoc()) {
