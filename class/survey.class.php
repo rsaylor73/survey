@@ -50,6 +50,7 @@ class survey {
 		if ($get_data['status'] == "INCOMPLETE") {
 			$template = "survey.tpl";
 			$data['boat_name'] = $get_data['name'];
+			$data['code'] = $_GET['code'];
 			$this->load_smarty($data,$template);
 		} else {
 			$template = "already_complete.tpl";
@@ -81,6 +82,16 @@ class survey {
 		$data['name'] = $name;
 		$data['status'] = $status;
 		return $data;
+	}
+
+	public function saveresults() {
+		$_GET['code'] = $_POST['code'];
+		$get_data = $this->lookup_survey_code();
+		print "<pre>";
+		print_r($get_data);
+		print "</pre>";
+		
+
 	}
 
 }

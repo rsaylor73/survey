@@ -11,7 +11,8 @@
             <div class="col-lg-8 text-left">
                 Your vacation is very important to us. To help us ensure that you received the high quality service that we expect, please tell us how we did by completing the following survey.<br><br>
 
-                <form>
+                <form action="saveresults" method="post">
+                <input type="hidden" name="code" value="{$code}">
                 <table class="table">
                 
                 <!-- Q1 -->
