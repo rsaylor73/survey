@@ -65,7 +65,7 @@ class survey {
 			`b`.`name`
 
 		FROM
-			`WWM_survey_codes` s, `boats`.`b`
+			`WWM_survey_codes` s, `boats` b
 
 		LEFT JOIN `WWM_survey_results` r ON `s`.`inventoryID` = `r`.`inventoryID`
 
