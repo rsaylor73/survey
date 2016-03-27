@@ -538,6 +538,20 @@
                     <input type="radio" name="q13a_5" value="0">
                 </td></tr>
 
+                <!-- Q14 -->
+                <tr><td><b>On a scale of 10 (best) to 1 (least), how likely are you to recommend us to a friend or colleague?</b></td></tr>
+                <tr><td><select name="q14">
+                    <option  value="1">1</option><option  value="2">2</option><option  value="3">3</option><option  value="4">4</option><option  value="5">5</option>
+                    <option  value="6">6</option><option  value="7">7</option><option  value="8">8</option><option  value="9">9</option><option selected value="10">10</option>
+                    </select></td></tr>
+
+                <!-- Q15 -->
+                <tr><td><b>On a scale of 10 (best) to 1 (least), how likely are you to recommend {$boat_name} to a friend or colleague?</b></td></tr>
+                <tr><td><select name="q15">
+                    <option  value="1">1</option><option  value="2">2</option><option  value="3">3</option><option  value="4">4</option><option  value="5">5</option>
+                    <option  value="6">6</option><option  value="7">7</option><option  value="8">8</option><option  value="9">9</option><option selected value="10">10</option>
+                    </select></td></tr>
+
 
 
 
