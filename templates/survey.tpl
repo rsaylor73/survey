@@ -9,7 +9,8 @@
 
         <div class="row">
             <div class="col-lg-8 text-left">
-                Your vacation is very important to us. To help us ensure that you received the high quality service that we expect, please tell us how we did by completing the following survey.<br><br>
+					Your feedback is very important to us. To help us ensure that you received the high quality service that we expect, please tell us how we did by completing the following survey.
+					<br><br>
 
                 <form action="saveresults" method="post">
                 <input type="hidden" name="code" value="{$code}">
@@ -47,7 +48,8 @@
                 <tr>
                     <td><select name="q3" id="q3" required>
                         <option value="">--Please Select--</option>
-                        <option selected>Aggressor</option>
+                        <option selected>Aggressor Fleet</option>
+								<option>Oceans For Youth</option>
                         <option>Tour Operator</option>
                         <option>Dive Store</option>
                         <option>Travel Agent</option>
@@ -94,7 +96,7 @@
 
                 <!-- Q7 -->
                 <tr>
-                    <td><b>Please rate your onboard experience:</b></td>
+                    <td><b>Please rate your travel experience:</b></td>
                 </tr>
                 <tr>
                     <td><b>Accommodations?</b></td>
