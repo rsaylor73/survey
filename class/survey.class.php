@@ -102,14 +102,14 @@ class survey {
 
          	`inventoryID`,`boatID`,`start_date`,`end_date`,
          	`ans_1`,`ans_3`,`ans_4a`,`ans_4b`,`ans_5`,`ans_6`,`ans_7`,`ans_8`,`ans_9`,`ans_10`,`ans_11`,`ans_12`,`ans_gift`,`ans_15`,
-         	`ans_16`,`ans_17`,`ans_18`,`ans_19`,`ans_20`,`ans_21`
+         	`ans_16`,`ans_17`,`ans_18`,`ans_19`,`ans_20`,`ans_21`,`ans_22`,`ans_23`,`ans_24`,`ans_25`
          	)
 
          	VALUES (
          	'$_POST[code]','$boatID','$start_date','$end_date',
          	'$_POST[q2]','$_POST[q9]','$_POST[q11a]','$_POST[q11b]','$_POST[q7a]','$_POST[q7b]','$_POST[q7c]','$_POST[q7d]','$_POST[q8]','$_POST[q3]','$_POST[q4]','$_POST[q5]',
          	'$_POST[donate]','$_POST[q14]',
-         	'$_POST[q15]','$_POST[q10a]','$_POST[q10b]','$_POST[q6]','$_POST[q1]','$_POST[q4b]'
+         	'$_POST[q15]','$_POST[q10a]','$_POST[q10b]','$_POST[q6]','$_POST[q1]','$_POST[q4b]','$_POST[q7a2]','$_POST[q7b2]','$_POST[q7c2]','$_POST[q7d2]'
          	)
          	";
          	//print "SQL 1:<br>$sql<br>";
