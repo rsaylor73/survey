@@ -132,7 +132,7 @@
                     <td><b>Food?</b></td>
                 </tr>
                 <tr>
-                    <td><select name="q7a" required>
+                    <td><select name="q7c" required>
                         <option value="">--Select--</option>
                         <option value="5">5 (Excellent)</option>
                         <option>4</option>
@@ -147,7 +147,7 @@
                     <td><b>Diving?</b></td>
                 </tr>
                 <tr>
-                    <td><select name="q7a">
+                    <td><select name="q7d">
                         <option value="">--Select--</option>
                         <option value="5">5 (Excellent)</option>
                         <option>4</option>
