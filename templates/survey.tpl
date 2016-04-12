@@ -49,7 +49,7 @@
                     <td><select name="q3" id="q3" required>
                         <option value="">--Please Select--</option>
                         <option selected>Aggressor Fleet</option>
-								<option>Oceans For Youth</option>
+						<option>Oceans For Youth</option>
                         <option>Tour Operator</option>
                         <option>Dive Store</option>
                         <option>Travel Agent</option>
@@ -96,7 +96,7 @@
 
                 <!-- Q7 -->
                 <tr>
-                    <td><b>Please rate your travel experience:</b></td>
+                    <td><b>Please rate your yacht experience:</b></td>
                 </tr>
                 <tr>
                     <td><b>Accommodations?</b></td>
@@ -148,6 +148,71 @@
                 </tr>
                 <tr>
                     <td><select name="q7a">
+                        <option value="">--Select--</option>
+                        <option value="5">5 (Excellent)</option>
+                        <option>4</option>
+                        <option value="3">3 (Fair)</option>
+                        <option>2</option>
+                        <option value="1">1 (Poor)</option>
+                        <option value="">N/A</option>
+                        </select>
+                    </td>
+                </tr>   
+
+                <!-- Q7A -->
+                <tr>
+                    <td><b>Please rate your hotel experience:</b></td>
+                </tr>
+                <tr>
+                    <td><b>Accommodations?</b></td>
+                </tr>
+                <tr>
+                    <td><select name="q7a2" required>
+                        <option value="">--Select--</option>
+                        <option value="5">5 (Excellent)</option>
+                        <option>4</option>
+                        <option value="3">3 (Fair)</option>
+                        <option>2</option>
+                        <option value="1">1 (Poor)</option>
+                        </select>
+                    </td>
+                </tr>
+
+               <tr>
+                    <td><b>Service?</b></td>
+                </tr>
+                <tr>
+                    <td><select name="q7b2" required>
+                        <option value="">--Select--</option>
+                        <option value="5">5 (Excellent)</option>
+                        <option>4</option>
+                        <option value="3">3 (Fair)</option>
+                        <option>2</option>
+                        <option value="1">1 (Poor)</option>
+                        </select>
+                    </td>
+                </tr>
+
+               <tr>
+                    <td><b>Food?</b></td>
+                </tr>
+                <tr>
+                    <td><select name="q7c2" required>
+                        <option value="">--Select--</option>
+                        <option value="5">5 (Excellent)</option>
+                        <option>4</option>
+                        <option value="3">3 (Fair)</option>
+                        <option>2</option>
+                        <option value="1">1 (Poor)</option>
+                        </select>
+                    </td>
+                </tr>
+
+               <tr>
+                    <td><b>Presentations?</b></td>
+                </tr>
+                <tr>
+                    <td><select name="q7d2">
                         <option value="">--Select--</option>
                         <option value="5">5 (Excellent)</option>
                         <option>4</option>
