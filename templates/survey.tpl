@@ -22,6 +22,7 @@
                 </tr>
                 <tr>
                     <td><select name="q1" required>
+                        <option>Aggressor Fleet</option>
                         <option>Repeat guest</option>
                         <option>Friend</option>
                         <option>Dive Show</option>
@@ -465,6 +466,8 @@
                     <input type="radio" name="q12a_5" value="0">
                 </td></tr>
 
+                <tr><td><input type="text" name="q12b" placeholder="Other publication"></td></tr>
+
                 <!-- Q13 -->
                 <tr>
                     <td><b>What scuba websites do you visit? (Favorite to N/A)</b></td>
@@ -479,7 +482,7 @@
                     <input type="radio" name="q13a_15" value="1">
                     <input type="radio" name="q13a_15" value="0">
                 </td></tr>
-                <tr><td>Aggressor TV</td></tr>
+                <tr><td>Aggressor.TV</td></tr>
                 <tr><td>
                     <input type="radio" name="q13a_11" value="5">
                     <input type="radio" name="q13a_11" value="4">
@@ -542,6 +545,7 @@
                     <input type="radio" name="q13a_16" value="1">
                     <input type="radio" name="q13a_16" value="0">
                 </td></tr>
+                <!--
                 <tr><td>Jim Church Photo</td></tr>
                 <tr><td>
                     <input type="radio" name="q13a_14" value="5">
@@ -551,6 +555,7 @@
                     <input type="radio" name="q13a_14" value="1">
                     <input type="radio" name="q13a_14" value="0">
                 </td></tr>
+                -->
                 <tr><td>PADI</td></tr>
                 <tr><td>
                     <input type="radio" name="q13a_9" value="5">
@@ -569,6 +574,7 @@
                     <input type="radio" name="q13a_10" value="1">
                     <input type="radio" name="q13a_10" value="0">
                 </td></tr>
+                <!--
                 <tr><td>Scuba Diver USA</td></tr>
                 <tr><td>
                     <input type="radio" name="q13a_2" value="5">
@@ -578,6 +584,7 @@
                     <input type="radio" name="q13a_2" value="1">
                     <input type="radio" name="q13a_2" value="0">
                 </td></tr>
+                -->
                 <tr><td>ScubaBoard</td></tr>
                 <tr><td>
                     <input type="radio" name="q13a_0" value="5">
@@ -587,6 +594,7 @@
                     <input type="radio" name="q13a_0" value="1">
                     <input type="radio" name="q13a_0" value="0">
                 </td></tr>
+                <!--
                 <tr><td>Sport Diver USA</td></tr>
                 <tr><td>
                     <input type="radio" name="q13a_1" value="5">
@@ -596,6 +604,7 @@
                     <input type="radio" name="q13a_1" value="1">
                     <input type="radio" name="q13a_1" value="0">
                 </td></tr>
+                -->
                 <tr><td>X-Ray</td></tr>
                 <tr><td>
                     <input type="radio" name="q13a_5" value="5">
