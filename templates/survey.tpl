@@ -574,8 +574,7 @@
                     <input type="radio" name="q13a_10" value="1">
                     <input type="radio" name="q13a_10" value="0">
                 </td></tr>
-                <!--
-                <tr><td>Scuba Diver USA</td></tr>
+                <tr><td>Scuba.com</td></tr>
                 <tr><td>
                     <input type="radio" name="q13a_2" value="5">
                     <input type="radio" name="q13a_2" value="4">
@@ -584,7 +583,6 @@
                     <input type="radio" name="q13a_2" value="1">
                     <input type="radio" name="q13a_2" value="0">
                 </td></tr>
-                -->
                 <tr><td>ScubaBoard</td></tr>
                 <tr><td>
                     <input type="radio" name="q13a_0" value="5">
@@ -594,8 +592,7 @@
                     <input type="radio" name="q13a_0" value="1">
                     <input type="radio" name="q13a_0" value="0">
                 </td></tr>
-                <!--
-                <tr><td>Sport Diver USA</td></tr>
+                <tr><td>Sportdiver.com</td></tr>
                 <tr><td>
                     <input type="radio" name="q13a_1" value="5">
                     <input type="radio" name="q13a_1" value="4">
@@ -604,7 +601,6 @@
                     <input type="radio" name="q13a_1" value="1">
                     <input type="radio" name="q13a_1" value="0">
                 </td></tr>
-                -->
                 <tr><td>X-Ray</td></tr>
                 <tr><td>
                     <input type="radio" name="q13a_5" value="5">
